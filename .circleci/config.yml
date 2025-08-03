@@ -47,7 +47,7 @@ jobs:
 
       - run:
           name: Deploy via Railway CLI
-          command: railway up --detach
+          command: railway up --service appealing-dedication --detach
 
 workflows:
   version: 2
