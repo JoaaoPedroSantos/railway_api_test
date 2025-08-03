@@ -48,8 +48,6 @@ jobs:
       - run:
           name: Deploy via Railway CLI
           command: railway up --detach
-          environment:
-            RAILWAY_TOKEN: $RAILWAY_TOKEN
 
 workflows:
   version: 2
